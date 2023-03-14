@@ -1,11 +1,12 @@
 import product1 from './assets/pic1.jpg';
 import product2 from './assets/pic2.jpg';
 import product3 from './assets/pic3.jpg';
-import product4 from './assets/pic4.jpg';
+import product4 from './assets/pic4.png';
 import product5 from './assets/pic5.jpg';
-import product6 from './assets/pic6.jpg';
+import product6 from './assets/pic6.png';
 import product7 from './assets/pic7.jpg';
 import product8 from './assets/pic8.jpg';
+import product9 from './assets/pic9.jpg';
 
 export const PRODUCTS = [
     {
@@ -55,5 +56,11 @@ export const PRODUCTS = [
         productName: "Jordan 7 USA",
         price: 400.0,
         productImage: product8,
+    },
+    {
+        id: 9,
+        productName: "Nike Air Force 1 Low Tiffany & Co. 1837",
+        price: 400.0,
+        productImage: product9,
     },
 ]
